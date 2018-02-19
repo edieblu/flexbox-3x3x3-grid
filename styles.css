@@ -1,0 +1,39 @@
+
+.container {
+	display: flex;
+	flex-direction: row;
+	padding-top: 100px;
+	width: 660px;
+	margin: 0 auto;
+	justify-content: space-evenly;
+}
+
+.row {
+	display: flex;
+	flex-direction: column;
+}
+
+.square {
+	height: 220px;
+	width: 220px;
+	margin: 2px;
+}
+
+.container-small {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+.row-small {
+	display: flex;
+	flex-direction: column;
+}
+
+.square-small {
+	height: 70px;
+	width: 70px;
+	background-color: rgba(34,147,217, 0.8);
+	margin: 1px;
+
+}
